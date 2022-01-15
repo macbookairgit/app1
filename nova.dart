@@ -6,15 +6,18 @@ class ProAir extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       appBar: AppBar(
-        title: Text(
-          "My Profile",
+        title: Row(
+          children: [
+          Text("My Profile",
           style: GoogleFonts.poppins(
             fontWeight: FontWeight.w700,
           ),
+          ),
+          ],
         ),
       ),
+     
       
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
